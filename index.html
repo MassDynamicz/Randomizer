@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Рандомайзер чисел</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section>
+    <div id="result">0</div>
+    <div class="form-row">
+      <button onclick="randomize()" autofocus>Сгенерировать случайное число</button>
+      <div class="checkbox">
+        <input type="checkbox" id="excludeRepeats">
+        <label for="excludeRepeats">Исключить повторы</label>
+      </div>
+      <textarea type="text" id="excludeNumbers" placeholder="Исключить числа (через запятую)"></textarea>
+    </div>
+  </section>
+  <script src="sheet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
